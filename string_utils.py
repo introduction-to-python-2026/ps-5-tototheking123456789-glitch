@@ -21,8 +21,8 @@ def count_atoms_in_molecule(molecular_formula):
 
 def parse_chemical_reaction(reaction_equation):
     reaction_equation = reaction_equation.replace(" ", "")
-    reactors, products = reaction_equation.split("->")
-    return reactors.split("+"), products.split("+")
+    rectants, products = reaction_equation.split("->")
+    return rectants.split("+"), products.split("+")
 
 def count_atoms_in_reaction(molecules_list):
     molecules_atoms_count = []
